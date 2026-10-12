@@ -1,0 +1,18 @@
+{
+  "name": "vital-registry-selenium-tests",
+  "version": "1.0.0",
+  "description": "Selenium E2E Test Suite for Vital Registry Web Frontend",
+  "main": "tests/login-tests.js",
+  "scripts": {
+    "test": "node tests/login-tests.js",
+    "report": "python generate_selenium_report.py"
+  },
+  "dependencies": {
+    "selenium-webdriver": "^4.24.0",
+    "chromedriver": "^128.0.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.7.3",
+    "chai": "^4.3.7"
+  }
+}
